@@ -18,7 +18,7 @@ Player, Question, Game
   - Property 2: Current turn. Starts at 0, and will increment constantly and use total (players % current turn) to determine whose turn it is.
   - Property 3: Current math question = instance of question class
   - Property 4: Player's current answer
-  - Method 1: Instantiates the game. It will ask how many players there are, then ask each player their name, and store the player instances in an array.
+  - Method 1: Instantiates the game. It will ask each player their name, and store the player instances in an array.
   - Method 2: Toggle turn. This method will cycle turns. 
   - Method 3: Generate new math question and store it as own property.
   - Method 4: Retrieve the stringified math question and display it for the player. Prompt the player for the answer.
